@@ -2,11 +2,10 @@ import ProductList from '../components/ProductList'
 
 export default function Dashboard({ products, featuredIds, onToggle, loading, error }) {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 sm:py-8">
 
-      {/* Page Header */}
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900">All Products</h1>
+      <div className="mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl font-bold text-gray-900">All Products</h1>
         <p className="text-gray-500 mt-1 text-sm">Browse all products and mark them as featured.</p>
       </div>
 
